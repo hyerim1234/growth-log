@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.js"
+    integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/travelsub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    <title>아난티 호텔 포트폴리오 작업</title>
+
+    <script>
+      $(function(){
+        
+        $("#menu_open").mouseover( function() {
+         // alert("강혜림 똑순이");
+          $("#navbox").fadeIn();
+        });
+    
+        $("#menu_close").click(function(){
+          $("#navbox").fadeOut();
+        });
+    
+        $("#submenu_3").mouseover(function(){
+          $(".navbox").css("padding-bottom", "128px")
+        });
+    
+        $("#submenu_3").mouseout(function(){
+          $(".navbox").css("padding-bottom", "288px")
+        });
+    
+    
+      });
+      </script>
+</head>
+
+<body>
+
+ <!-- 세로 메인메뉴 만들기 -->
+ <div class="navbox" id="navbox">
+
+  <div class="menu_name">
+    <ul>
+      <li><a href="anantimain.html">ANANTI HILTON BUSAN</a></li>
+      <li id="menu_close">X</li>
+      <li class="clear"></li>
+    </ul>
+  </div>
+
+    <ul class="nav">
+      
+      <li><a href="roomsub1.html">Accomodation</a>
+      <!--
+            <ul class="submenu">
+                <li><a href="#">menu1-1</a></li>
+                <li><a href="#">menu1-2</a></li>
+                <li><a href="#">menu1-3</a></li>
+                <li><a href="#">menu1-4</a></li>
+              </ul>-->
+        </li>
+      <li><a href="facilitysub.html" >Facility</a>
+
+             <!--
+            <ul class="submenu">
+                <li><a href="#">menu1-1</a></li>
+                <li><a href="#">menu1-2</a></li>
+                <li><a href="#">menu1-3</a></li>
+                <li><a href="#">menu1-4</a></li>
+              </ul>-->
+        </li>
+        
+      <li id="submenu_3"><a href="travelsub.html">Promotion</a>
+             
+            <ul class="submenu">
+              <li><a href="travelsub.html">Travel</a></li>
+              <li><a href="newssub.html">NEWS</a></li>
+              <li><a href="eventsub.html">Program</a></li>
+
+              </ul>
+        </li>
+        
+
+      
+    </ul>
+</div>
+
+ <!-- 메인 페이지 제작 헤더-비주얼 -->
+    <header>
+      <div class="main_container">
+
+          <div class="navi_bg">
+            <ul>
+                <li id="menu_open">
+                
+                    <i class="fas fa-bars menu f-18"></i>
+                 
+                </li>
+                <li class="f-rix">
+                    <a href="../html/anantimain.html"><img src="../img/common/logo.png" alt=""></a>
+                </li>
+                <li>
+                    <span class="f-12">KR <i class="fas fa-caret-down "></i></span>
+                    &nbsp;
+                    &nbsp;
+                    <span class="f-12">Book</span>
+                </li>
+            </ul>
+          </div>
+
+      <!-- visual 배경 -->
+          <div class="visual_bg">
+
+            <div class="visualtext">
+                <b class="f-24"> ANANTI HILTON BUSAN </b> <br>
+                <br>
+                도심속에서 만나는 휴식처 <br>
+                <br>
+                부산의 오염되지 않은 천혜의 바다와 자연경관을 그대로 간직한<br>
+                아난티 힐튼 부산에서 프라이빗한 휴식을 선사합니다.
+            </div>
+
+          </div>
+          
+        </div>
+    </header>
+
+   <!-- 섹션 시작 -->
+
+  <!-- accomodaiton 섹션1  start -->
+    
+    <section class="sec01">
+      <div class="f-24">
+        주변 관광지 & 맛집 소개
+      </div>
+
+    <!-- sec01 contents -->
+      <div class="sec01_content">
+        <ul>
+          <li class="sec01_li sec01_li1">
+            <div></div>
+            <div>
+                26개종목,70개국 28,000여명이 참가하는<br>
+                국제종합 생활체육인의 대회가<br>
+                2023년 부산광역시에서 개최됩니다.
+              <p>
+                부산 아태 마스터스 대회
+              </p>
+            </div>
+          </li>
+          <li class="sec01_li sec01_li2">
+            <button>자세히보기</button>
+          </li>
+          <li class="sec01_li sec01_li3">
+            <div></div>
+            <div>
+                26개종목,70개국 28,000여명이 참가하는<br>
+                국제종합 생활체육인의 대회가<br>
+                2023년 부산광역시에서 개최됩니다.
+              <p>
+                부산 아태 마스터스 대회
+              </p>
+            </div>
+          </li>
+          <li class="clear"></li>
+        </ul>
+        
+      </div>
+    
+    </section>
+    
+
+
+ 
+ <!-- section02 facility start -->
+<section class="sec02">
+
+  <!-- 맛집소개 -->
+  <div class="sec02_content">
+    <ul>
+
+
+      <li>
+        <div class="sec02_foodbox"></div>
+        <div>
+          부산관광마케팅<br>
+          종합지원센터<br>
+          <br>
+          <a href="https://naver.me/Fhd2E3MX" target="_blank">
+          <button class="btn4 f-14 viewmore1">맛보기</button></a>
+        </div>
+      </li>
+
+
+      <li>
+        <div class="sec02_foodbox"></div>
+        <div>부산관광마케팅<br>종합지원센터</div>
+      </li>
+      
+      <li>
+        <div class="sec02_foodbox"></div>
+        <div>부산관광마케팅<br>종합지원센터</div>
+      </li>
+      
+      <li>
+        <div class="sec02_foodbox"></div>
+        <div>부산관광마케팅<br>종합지원센터</div>
+      </li>
+      
+      <li>
+        <div class="sec02_foodbox"></div>
+        <div>부산관광마케팅<br>종합지원센터</div>
+      </li>
+      
+      <li>
+        <div class="sec02_foodbox"></div>
+        <div>부산관광마케팅<br>종합지원센터</div>
+      </li>
+
+
+      
+    </ul>
+    <div class="clear"></div>
+  </div>
+
+</section>
+
+
+
+     
+<!-- section03 promotion start-->
+
+<section class="sec03">
+
+  <div class="f-24">
+  ANANTI HILTON BUSAN
+  </div>
+
+  <!-- sec02 contents -->
+
+  <div class="sec03_content">
+      
+    <div style="border:#333 solid 5px; border-radius">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.3258350314914!2d129.224062784622!3d35.198352007764214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35688eaf488ecf1b%3A0x69592064ca63ca9d!2z7JWE64Kc7YuwIO2ekO2KvCDrtoDsgrA!5e0!3m2!1sko!2skr!4v1665843093972!5m2!1sko!2skr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </div>
+
+</section>
+
+
+<!-- section03 promotion end-->
+
+
+
+
+<div class="line2"></div>
+
+
+
+<!-- footer -->
+
+
+<section class="sec06">
+
+  
+  <div class="sec06_imgbox">
+    <div class="sec06_box1">
+      <p class="f-24">ANANTI HILTON BUSAN</p>
+      <p>
+        268-32, Gijanghaean-ro, Gijang-eup, Gijang-gun, Busan, Korea 46083<br>
+        T. 대표번호 +82 (0)51-509-1111 | 객실 예약 +82 (0)51-509-1114<br>
+        F. (0)51-509-2620 E. pushi_hotel@hilton.com 사업자등록번호 : 483-85-00667<br>
+        대표이사 : 이만규<br>
+        Copyright © 2017 All rights reserved ANANTI HILTON BUSAN
+      </p>
+    </div>
+
+    <div class="sec06_box2">
+      <p class="f-18">MENU</p>
+      <p>
+        <a href="roomsub.html">ACCOMODATION</a><br>
+        <a href="facilitysub.html">Facility</a><br>
+        <a href="promotionsub.html">Promotion</a><br>
+        <a href="diningsub.html">Dining</a><br>
+        <a href="positionsub.html">Position</a>
+      </p>
+    </div>
+
+    <div class="sec06_box3">
+      <p class="f-18">Follow Us</p>
+      <p>
+        <a href="https://ko-kr.facebook.com/theananti/" target="_blank"><i class="fab fa-facebook-square f-24"></i></a>
+        <a href="https://www.instagram.com/ananti_life/" target="_blank"><i class="fab fa-instagram f-24"></i></a>
+      </p>
+    </div>
+
+    <div class="sec06_box4">
+      <p class="f-18">Subscribe Now</p>
+      <p>
+        <input type="email" value="" placeholder="Your E-mail">
+       
+      </p>
+    </div>
+
+  </div>
+
+
+</section>
+
+
+  
+
+
+
+
+</body>
+
+</html>

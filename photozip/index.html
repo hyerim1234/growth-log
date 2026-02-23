@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023-02-02-인생사진 쏙쏙 코딩네컷</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="photos">
+            <div id="image1" class="photo-frame" onmouseover="hideText(1)" onmouseout="showText(1)" onclick="alertText(1)">
+                <span id="desc1" class="photo-description">2023년</span>
+            </div>
+
+            <div id="image2" class="photo-frame" onmouseover="hideText(2)" onmouseout="showText(2)" onclick="alertText(2)">
+                <span id="desc2" class="photo-description">먹었다</span>
+            </div>
+
+            <div id="image3" class="photo-frame"	onmouseover="hideText(3)" onmouseout="showText(3)" onclick="alertText(3)">
+                <span id="desc3" class="photo-description">한살을</span>
+            </div>
+            
+            <!-- <div id="image4" class="photo-frame" onmouseover="hideText(4)" onmouseout="showText(4)" onclick="alertText(4)>
+                <span id="desc4"  class="photo-description">나? 다섯살</span>
+            </div> -->
+
+
+            <div class="photo-frame">
+                <iframe src="https://www.youtube.com/embed/DazVygQDPT4" frameborder="0" class="video"></iframe>
+            </div>
+   
+        </div>
+        <div class="footer">
+            <p class="f-title">Happy Lunch Time</p>
+            <p class="f-date">2023.02.02</p>
+        </div>
+    </div>
+</body>
+
+
+</html>

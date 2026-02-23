@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0;}
+
+*{font-family: 'Gaegu', cursive;}
+
+.bg{
+    width: 360px;
+    background-image : url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+    margin: 30px auto;
+    
+}
+.title{
+    background-color: thistle;
+   color: black;
+   font-size: 24px;
+   text-align: center;
+   padding: 8px 16px;
+   border-radius: 8px;
+}
+.message{
+    font-size: 20px;
+    font-weight: bold;
+    color: chocolate;
+}
+.bucket{
+    width: 160px;
+    height: 160px;
+
+}
+
+.img1{
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+    background-size: cover;
+    background-position: center;
+}
+

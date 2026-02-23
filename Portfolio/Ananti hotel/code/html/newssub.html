@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://code.jquery.com/jquery-1.12.4.js"
+    integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/newssub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    <title>아난티 호텔 포트폴리오 작업실</title>
+
+    <script>
+      $(function(){
+        
+        $("#menu_open").mouseover( function() {
+         // alert("강혜림 똑순이");
+          $("#navbox").fadeIn();
+        });
+    
+        $("#menu_close").click(function(){
+          $("#navbox").fadeOut();
+        });
+    
+        $("#submenu_3").mouseover(function(){
+          $(".navbox").css("padding-bottom", "128px")
+        });
+    
+        $("#submenu_3").mouseout(function(){
+          $(".navbox").css("padding-bottom", "288px")
+        });
+
+        $(".viewmore1").click(function(){
+            $(".news_window").slideDown();
+        });
+
+        $(".viewclose").click(function(){
+          $(".news_window").slideUp();
+        });
+    
+    
+      });
+      </script>
+</head>
+
+<body>
+
+  <!-- 세로 메인메뉴 만들기 -->
+ <div class="navbox" id="navbox">
+
+  <div class="menu_name">
+    <ul>
+      <li><a href="anantimain.html">ANANTI HILTON BUSAN</a></li>
+      <li id="menu_close">X</li>
+      <li class="clear"></li>
+    </ul>
+  </div>
+
+    <ul class="nav">
+      
+      <li><a href="roomsub1.html">Accomodation</a>
+      <!--
+            <ul class="submenu">
+                <li><a href="#">menu1-1</a></li>
+                <li><a href="#">menu1-2</a></li>
+                <li><a href="#">menu1-3</a></li>
+                <li><a href="#">menu1-4</a></li>
+              </ul>-->
+        </li>
+      <li><a href="facilitysub.html" >Facility</a>
+
+             <!--
+            <ul class="submenu">
+                <li><a href="#">menu1-1</a></li>
+                <li><a href="#">menu1-2</a></li>
+                <li><a href="#">menu1-3</a></li>
+                <li><a href="#">menu1-4</a></li>
+              </ul>-->
+        </li>
+        
+      <li id="submenu_3"><a href="travelsub.html">Promotion</a>
+             
+            <ul class="submenu">
+                <li><a href="travelsub.html">Travel</a></li>
+                <li><a href="newssub.html">NEWS</a></li>
+                <li><a href="eventsub.html">Program</a></li>
+
+              </ul>
+        </li>
+        
+
+      
+    </ul>
+</div>
+
+ <!-- 메인 페이지 제작 헤더-비주얼 -->
+    <header>
+      <div class="main_container">
+
+          <div class="navi_bg">
+            <ul>
+                <li id="menu_open">
+                
+                    <i class="fas fa-bars menu f-18"></i> MENU
+                 
+                </li>
+                <li class="f-rix">
+                  <a href="../html/anantimain.html"> <img src="../img/common/logo.png" alt=""></a>
+                </li>
+                <li>
+                    <span class="f-12">KR <i class="fas fa-caret-down "></i></span>
+                    &nbsp;
+                    &nbsp;
+                    <span class="f-12">Book</span>
+                </li>
+            </ul>
+          </div>
+
+      <!-- visual 배경 -->
+          <div class="visual_bg">
+
+            <div class="visualtext">
+                <b class="f-24"> ANANTI HILTON BUSAN </b> <br>
+                <br>
+                도심속에서 만나는 휴식처 <br>
+                <br>
+                부산의 오염되지 않은 천혜의 바다와 자연경관을 그대로 간직한<br>
+                아난티 힐튼 부산에서 프라이빗한 휴식을 선사합니다.
+            </div>
+
+          </div>
+          
+        </div>
+    </header>
+
+
+
+    <!-- 섹션 시작 -->
+
+   <!-- 섹션1  start -->
+    
+    <section class="sec01">
+    
+  
+      <div class="sec01_content">
+
+        <div class="sec01_box">
+
+          <p class="sec01_title f-24">프로모션</p>
+
+
+         <hr>
+
+          <p class="f-16 sec01_article">
+            주변관광지<br>
+            <b class="f-16">아난티 소식지</b><br>
+            아난티 프로그램 & 이벤트<br>
+          </p>
+
+
+        </div>  <!-- 카테고리 박스 -->
+        
+      </div>
+      
+
+
+
+    </section>
+    
+
+
+<!-- section02 section start -->
+
+    <section class="sec02">
+
+                      <!-- 뉴스 윈도우 시작 -->
+                      <div class="news_window">
+                       
+                        <button class="btn3 f-18 viewclose">close</button>
+                        <img src="../img/news/news1.jpg" alt="">
+                      </div>
+                    <!-- 뉴스 윈도우 끝 -->
+
+      <!-- 섹션2 제목 -->
+      <div class="sec02_topcontent">
+        <div class="f-24 sec02_title">ANANTI NEWS</div>
+        <div class="sec02line"></div>
+      </div>
+
+      <!-- sec02 contents -->
+
+            <div class="sec02_content">
+
+                <div>
+                  <img src="../img/news/mobile.jpg" alt="">
+                  <p class="f-24 sec02_bt"> 아난티 앱으로 모바일 체크인</p>
+                  <p class="f-16">  
+                  프론트에 매번 방문해서 대기하실 필요 없습니다.<br>
+                  이제는 앱으로 편하게 체크인을 마치고 바로 객실로 이동해 보세요.
+                  <p> <br>
+
+                  
+                      <button class="btn3 f-18 viewmore1">view more</button>
+                 
+
+                </div>
+
+                <div>
+                  <div class="sec02_1">
+                    <table>
+                      <tr>
+                        <td  class="f-16">
+
+                            <p class="f-18">2022-2023 아난티 회원 혜택 안내</p> 
+                            <br>
+                            아난티 앳 강남 오픈에 따라
+                            
+                            아난티 회원 혜택이 더욱 강화 됩니다
+                            
+                            제주,부산,청평등 아난티의 새로운 이야기와  그만큼
+                            
+                            더욱 확대될 다양한 회원 혜택을 기대해 주세요. <br>
+                            <br>
+                  
+                              <button class="btn4 f-14 viewmore1">view more</button>
+                       
+                          
+                        </td>
+                        <td><img src="../img/news/news1.jpg" alt=""></td>
+                      </tr>
+                    </table>
+                  </div>
+                  <br> <br>
+                  <div class="sec02_1">
+                    <table>
+                      <tr>
+                        <td  class="f-16">
+
+                            <p class="f-18">2022-2023 아난티 회원 혜택 안내</p> 
+                            <br>
+                            아난티 앳 강남 오픈에 따라
+                            
+                            아난티 회원 혜택이 더욱 강화 됩니다
+                            
+                            제주,부산,청평등 아난티의 새로운 이야기와  그만큼
+                            
+                            더욱 확대될 다양한 회원 혜택을 기대해 주세요. <br>
+                            <br>
+                         
+                              <button class="btn4 f-14 viewmore1">view more</button>
+                         
+                          
+                        </td>
+                        <td><img src="../img/news/news1.jpg" alt=""></td>
+                      </tr>
+                    </table>
+                  </div>
+
+
+            </div>
+
+    </section>
+
+<!-- section02 section end-->
+
+
+
+
+     
+<!-- section03 promotion start-->
+
+<section class="sec03">
+
+      <!-- 섹션2 제목 -->
+      <div class="sec03_topcontent">
+        <div class="sec03line"></div>
+        <div class="f-24 sec03_title">ANANTI NEWS</div>
+
+      </div>
+
+  <!-- sec02 contents -->
+
+  <div class="sec03_content">
+    <ul>
+    <li>
+      <img src="../img/news/kids_playing.png" alt="">
+      <p class="f-18">2022-2023 아난티 회원 혜택 안내</p> 
+      <br>
+      아난티 앳 강남 오픈에 따라
+      
+      아난티 회원 혜택이 더욱 강화 됩니다
+      
+      제주,부산,청평등 아난티의 새로운 이야기와  그만큼
+      
+      더욱 확대될 다양한 회원 혜택을 기대해 주세요. <br>
+      <br>
+      <a href="facilitysub.html">
+        <button class="btn4 f-14">view more</button>
+      </a>
+    </li>
+    <li>
+      <img src="../img/news/party1.png" alt="">
+      <p class="f-18">2022-2023 아난티 회원 혜택 안내</p> 
+      <br>
+      아난티 앳 강남 오픈에 따라
+      
+      아난티 회원 혜택이 더욱 강화 됩니다
+      
+      제주,부산,청평등 아난티의 새로운 이야기와  그만큼
+      
+      더욱 확대될 다양한 회원 혜택을 기대해 주세요. <br>
+      <br>
+      <a href="facilitysub.html">
+        <button class="btn4 f-14">view more</button>
+      </a>
+    </li>
+    <li>
+      <img src="../img/news/kids_play.png" alt="">
+      <p class="f-18">2022-2023 아난티 회원 혜택 안내</p> 
+      <br>
+      아난티 앳 강남 오픈에 따라
+      
+      아난티 회원 혜택이 더욱 강화 됩니다
+      
+      제주,부산,청평등 아난티의 새로운 이야기와  그만큼
+      
+      더욱 확대될 다양한 회원 혜택을 기대해 주세요. <br>
+      <br>
+      <a href="facilitysub.html">
+        <button class="btn4 f-14">view more</button>
+      </a>
+    </li>
+    
+
+    </ul>   
+     <div class="clear"></div>
+
+   
+  </div>
+
+</section>
+
+
+<!-- section03 promotion end-->
+
+
+
+
+
+
+<div class="line2"></div>
+
+
+<!-- footer -->
+
+
+<section class="sec06">
+
+  
+  <div class="sec06_imgbox">
+    <div class="sec06_box1">
+      <p class="f-24">ANANTI HILTON BUSAN</p>
+      <p>
+        268-32, Gijanghaean-ro, Gijang-eup, Gijang-gun, Busan, Korea 46083<br>
+        T. 대표번호 +82 (0)51-509-1111 | 객실 예약 +82 (0)51-509-1114<br>
+        F. (0)51-509-2620 E. pushi_hotel@hilton.com 사업자등록번호 : 483-85-00667<br>
+        대표이사 : 이만규<br>
+        Copyright © 2017 All rights reserved ANANTI HILTON BUSAN
+      </p>
+    </div>
+
+    <div class="sec06_box2">
+      <p class="f-18">MENU</p>
+      <p>
+        <a href="roomsub.html">ACCOMODATION</a><br>
+        <a href="facilitysub.html">Facility</a><br>
+        <a href="promotionsub.html">Promotion</a><br>
+        <a href="diningsub.html">Dining</a><br>
+        <a href="positionsub.html">Position</a>
+      </p>
+    </div>
+
+    <div class="sec06_box3">
+      <p class="f-18">Follow Us</p>
+      <p>
+        <a href="https://ko-kr.facebook.com/theananti/" target="_blank"><i class="fab fa-facebook-square f-24"></i></a>
+        <a href="https://www.instagram.com/ananti_life/" target="_blank"><i class="fab fa-instagram f-24"></i></a>
+      </p>
+    </div>
+
+    <div class="sec06_box4">
+      <p class="f-18">Subscribe Now</p>
+      <p>
+        <input type="email" value="" placeholder="Your E-mail">
+       
+      </p>
+    </div>
+
+  </div>
+
+
+</section>
+
+
+  
+
+
+
+
+</body>
+
+</html>
