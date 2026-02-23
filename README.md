@@ -3,7 +3,7 @@
 이 저장소는 여러 프론트엔드 프로젝트를 모아둔 워크스페이스입니다.
 
 ## 문서
-- RE100 Vue 프로젝트: `/Users/kanghyerim/Desktop/github_pj/lasee/re100_pj/README.md`
+- RE100 회사 실무 관련 프로젝트: `/Users/kanghyerim/Desktop/github_pj/lasee/re100_pj/README.md`
 - Travel Blog 정적 프로젝트: `/Users/kanghyerim/Desktop/github_pj/travel_blog/README.md`
 - Ananti Hotel 정적 프로젝트: `/Users/kanghyerim/Desktop/github_pj/Portfolio/Ananti hotel/code/README.md`
 
@@ -27,10 +27,10 @@
 |---|---|---|---|
 | `Portfolio/Ananti hotel/code` | 호텔 사이트 포트폴리오 | HTML/CSS, jQuery 1.12.4, Font Awesome | 페이지/스타일 완성도 높음, JS는 인라인 중심 |
 | `travel_blog` | 여행 블로그 UI 프로젝트 | HTML/CSS/SCSS/JS, Swiper, Tailwind CDN | 인터랙션 다양, 일부 중복 로직 존재 |
-| `lasee/re100_pj` | Vue 3 앱 프로젝트 | Vue CLI, Vue Router, Vuex, Tailwind, Bootstrap, Highcharts | 구조화된 SPA, 인증/상태 관리 기본 구현 |
-| `lasee/study` | Vue 학습 프로젝트 | Vue CLI, Router, Vuex, Tailwind, Bootstrap, Highcharts | 학습용 라우트/컴포넌트 풍부 |
-| `lasee/vite-project` | Vue 3 + Vite 템플릿 | Vite, Vue 3, Tailwind | 기본 템플릿 수준 |
-| `lasee` (root) | Vue CLI 기본 템플릿 | Vue 3, Tailwind | 초기 템플릿 상태 |
+| `lasee/re100_pj` | 회사 실무 관련 Vue 앱 프로젝트 | Vue CLI, Vue Router, Vuex, Tailwind, Bootstrap, Highcharts | 구조화된 SPA, 인증/상태 관리 기본 구현 |
+| `lasee/study` | 회사 실무 관련 Vue 심화 프로젝트 | Vue CLI, Router, Vuex, Tailwind, Bootstrap, Highcharts | 실무형 라우트/컴포넌트 확장 실습 |
+| `lasee/vite-project` | 회사 실무 관련 Vue 3 + Vite 검증 템플릿 | Vite, Vue 3, Tailwind | 기능 검증용 템플릿 수준 |
+| `lasee` (root) | 회사 실무 관련 Vue CLI 기반 프로젝트 베이스 | Vue 3, Tailwind | 기본 베이스 템플릿 상태 |
 | `photozip` | 미니 웹 실습 | 순수 JS DOM 이벤트 | 이벤트/클래스 토글 실습 |
 | `mybucketlist` | 정적 페이지 | HTML/CSS | 단일 페이지 |
 | `git` | Git 실습 샘플 | 간단 HTML/CSS/JS | 데모/테스트 용도 |
